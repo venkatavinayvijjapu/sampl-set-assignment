@@ -73,3 +73,6 @@ streamlit run app.py
 - **Notebooks**: Contains the notebooks used for testing and development in part-1 directory.
 - **streamlit_app/**: Contains the Streamlit front-end code in part-2 directory.
 - **requirements.txt**: Lists the project dependencies.
+
+## Video Prototype:
+You can watch the demo video [here](https://www.veed.io/view/7b37e8e7-2c55-45bc-bead-c01f5e40d5de?panel=share).

@@ -19,9 +19,8 @@ from langchain.memory import ConversationSummaryBufferMemory
 from pinecone import Pinecone, ServerlessSpec
 from pinecone import ServerlessSpec
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
 api_key = 'gpt-3.5-turbo'
 EMBEDDING_MODEL = 'text-embedding-ada-002'
 EMBEDDING_CTX_LENGTH = 8191
